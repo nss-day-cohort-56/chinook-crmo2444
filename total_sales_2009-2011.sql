@@ -1,0 +1,8 @@
+SELECT SUM(Total) AS oh_nine FROM Invoice
+    WHERE InvoiceDate BETWEEN '2009-01-01 00:00:00' AND '2009-12-31 00:00:00'; 
+
+SELECT SUM(Total) AS ten FROM Invoice
+    WHERE InvoiceDate BETWEEN '2010-01-01 00:00:00' AND '2010-12-31 00:00:00'; 
+
+SELECT SUM(Total) AS eleven FROM Invoice
+    WHERE InvoiceDate BETWEEN '2011-01-01 00:00:00' AND '2011-12-31 00:00:00'; 
